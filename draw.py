@@ -1,3 +1,8 @@
+"""
+This script is to extract images frame by frame of videos shortened to 10-20 seconds, draw polygon masks of different colors on different moving objects in each image by extracting their labeled coordinates on margin of each moving objects in the json file.
+
+@author: Yihan Zhang
+"""
 from PIL import Image
 from PIL import ImageDraw
 import os,sys,json,glob,pdb,cv2,numpy as np
